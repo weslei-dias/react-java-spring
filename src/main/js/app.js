@@ -213,7 +213,7 @@ class FuncionarioList extends React.Component {
 		}
 
 		return (
-			<div>
+			<div class="container">
 				<input ref="pageSize" defaultValue={this.props.pageSize} onInput={this.handleInput}/>
 				<table>
 					<tbody>
@@ -252,7 +252,7 @@ class Funcionario extends React.Component {
 				<td>{this.props.funcionario.ultimoNome}</td>
 				<td>{this.props.funcionario.cargo}</td>
 				<td>
-					<button onClick={this.handleDelete}>Delete</button>
+					<button onClick={this.handleDelete}>Apagar</button>
 				</td>
 			</tr>
 		)

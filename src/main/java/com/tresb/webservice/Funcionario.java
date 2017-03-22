@@ -13,7 +13,7 @@ import lombok.Data;
 @Entity
 public class Funcionario {
 
-	private @Id @GeneratedValue Long id;
+	private @Id @GeneratedValue Long Id;
 	private String primeiroNome;
 	private String ultimoNome;
 	private String cargo;
